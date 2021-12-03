@@ -1,1 +1,214 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import "~@mdi/font/scss/materialdesignicons.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+body{
+    font-family: 'Roboto',sans-serif;
+    background: #f1f3fa;
+    font-family: Roboto;
+    color: #707070;
+}
+
+.card{
+background: #fff;
+border-radius: 15px;
+background: #fff;
+box-shadow: 0px 5px 20px rgba(147, 170, 185, 0.16);
+}
+
+.price{
+font-family: Roboto;
+font-weight: normal;
+font-size: 20px;
+color: #d21a1a;
+}
+
+.button{
+height: 64px;
+border-radius: 5px;
+background: #713ab7;
+border: 1px solid #707070;
+box-shadow: 0px 3px 6px rgba(127, 67, 192, 0.16);
+}
+
+
+header,div,p{
+    box-sizing: border-box;
+}
+
+//grid
+.left{
+    display:block;
+    float:left;
+}
+.right{
+    display:block;
+    float:right;
+}
+
+.shown {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.left {
+    float: left !important;
+}
+
+.text-left,
+.left-align {
+    text-align: left !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.text-right,
+.right-align {
+    text-align: right !important;
+}
+
+.container {
+    margin: auto;
+}
+
+.row {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+
+    @for $i from 1 through 12 {
+        .col-#{$i} {
+            float: left;
+            width: $i / 12 * 100%;
+        }
+    }
+}
+$dimension-n: 0;
+$dimension-s: 5;
+$dimension-m: 10;
+$dimension-l: 20;
+$dimension-vl: 40;
+$dimension-xl: 80;
+$dimension-xxl: 160;
+
+$layouts: (
+    l: left,
+    h: left right,
+    r: right,
+    t: top,
+    b: bottom,
+    v: top bottom,
+    a: left right top bottom,
+);
+
+$spacings: (
+    p: padding,
+    m: margin,
+);
+
+$dimensions: (
+    n: $dimension-n,
+    s: $dimension-s,
+    m: $dimension-m,
+    l: $dimension-l,
+    vl: $dimension-vl,
+    xl: $dimension-xl,
+    xxl: $dimension-xxl,
+);
+
+$selector: "";
+
+@each $spacing-key, $spacing-value in $spacings {
+    @each $layout-key, $layout-value in $layouts {
+        @each $dimension, $size in $dimensions {
+            .#{$spacing-key}#{$layout-key}#{$dimension} {
+                @each $layout-entry in $layout-value {
+                    #{$spacing-value}-#{$layout-entry}: #{$size}px;
+                }
+            }
+        }
+    }
+}
+
+//--------------------------------- COMPONENTS ---------------------------------
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.semi-bold {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.card {
+    border-radius: 5px;
+    background: linear-gradient(#fff 0%, #fefefe 58.9%, #fdfdfd 78.32%, #fff 100%);
+    box-shadow: 0px 5px 20px rgba(147, 170, 185, 0.2);
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+@mixin message {
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    overflow-wrap: break-word;
+}
+
+.info-message {
+    @include message;
+    color: #6c6a6a;
+}
+
+.error-message {
+    @include message;
+    color: #f34b4c;
+}
+
+.warn-message {
+    @include message;
+    color: #d48e3e;
+}

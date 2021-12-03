@@ -1,0 +1,186 @@
+[
+    {
+        "id": "pkg-0",
+        "name": "Fragrant Nature, Munnar",
+        "details": "Tropic Green Room, Breakfast Inclusive",
+        "price": 6338,
+        "starRating": 5,
+        "location": "munnar"
+    },
+    {
+        "id": "pkg-1",
+        "name": "Chandys Windy Woods Resort, Munnar",
+        "details": "Deluxe Room, Breakfast Inclusive",
+        "price": 9662,
+        "starRating": 5,
+        "location": "munnar"
+    },
+    {
+        "id": "pkg-2",
+        "name": "Club Mahindra Resort, Munnar",
+        "details": "Superior Room, Breakfast Inclusive",
+        "price": 4082,
+        "starRating": 5,
+        "location": "munnar"
+    },
+    {
+        "id": "pkg-3",
+        "name": "UDS Backwater Resort, Alappuzha",
+        "details": "Lake View Deluxe Room, Breakfast Inclusive",
+        "price": 5382,
+        "starRating": 4,
+        "location": "alappuzha"
+    },
+    {
+        "id": "pkg-4",
+        "name": "Lemon Tree Vembanad Lake Resort, Alappuzha",
+        "details": "Superior Room, Breakfast Inclusive",
+        "price": 6210,
+        "starRating": 4,
+        "location": "alappuzha"
+    },
+    {
+        "id": "pkg-5",
+        "name": "Turtle on the Beach, Kovalam",
+        "details": "Deluxe Room, Breakfast Inclusive",
+        "price": 5756,
+        "starRating": 5,
+        "location": "kovalam"
+    },
+    {
+        "id": "pkg-6",
+        "name": "Uday Samudra Leisure Beach Hotel, Kovalam",
+        "details": "Deluxe Room, Breakfast Inclusive",
+        "price": 5242,
+        "starRating": 4,
+        "location": "kovalam"
+    },
+    {
+        "id": "pkg-7",
+        "name": "Estuary Sarovar Portico, Poovar",
+        "details": "Garden Cottage, Breakfast Inclusive",
+        "price": 7385,
+        "starRating": 5,
+        "location": "kovalam"
+    },
+    {
+        "id": "pkg-8",
+        "name": "Club Mahindra Poovar, Poovar",
+        "details": "Superior Room, Breakfast Inclusive",
+        "price": 3738,
+        "starRating": 4,
+        "location": "kovalam"
+    },
+    {
+        "id": "pkg-9",
+        "name": "The Zuri, Kumarakom",
+        "details": "Lagoon Room, Breakfast Inclusive",
+        "price": 7168,
+        "starRating": 5,
+        "location": "alappuzha"
+    },
+    {
+        "id": "pkg-10",
+        "name": "Park Regis Aveda, Kumarakom",
+        "details": "Poolside Premium Cottage, Breakfast Inclusive",
+        "price": 5693,
+        "starRating": 5,
+        "location": "alappuzha"
+    },
+    {
+        "id": "pkg-11",
+        "name": "Vythiri Village Resort, Wayanad",
+        "details": "Cottage, Breakfast Inclusive",
+        "price": 9912,
+        "starRating": 5,
+        "location": "wayanad"
+    },
+    {
+        "id": "pkg-12",
+        "name": "Vythiri Village Resort, Wayanad",
+        "details": "Standard Room, Breakfast Inclusive",
+        "price": 5665,
+        "starRating": 5,
+        "location": "wayanad"
+    },
+    {
+        "id": "pkg-13",
+        "name": "Wayanad Sharoy Resort, Wayanad",
+        "details": "Villa Cottage, Breakfast Inclusive",
+        "price": 9568,
+        "starRating": 5,
+        "location": "wayanad"
+    },
+    {
+        "id": "pkg-14",
+        "name": "Tea Terrace Vythiri Resort, Wayanad",
+        "details": "Premium Cottage, Breakfast Inclusive",
+        "price": 5268,
+        "starRating": 3,
+        "location": "wayanad"
+    },
+    {
+        "id": "pkg-15",
+        "name": "B'Canti Boutique Beach Resort, Varkala",
+        "details": "Deluxe Room, Breakfast Inclusive",
+        "price": 6995,
+        "starRating": 5,
+        "location": "varkala"
+    },
+    {
+        "id": "pkg-16",
+        "name": "Fragrant Nature, Paravur",
+        "details": "Premium Lake View Villa, Breakfast Inclusive",
+        "starRating": 5,
+        "price": 7155,
+        "location": "varkala"
+    },
+    {
+        "id": "pkg-17",
+        "name": "The Gateway Hotel, Varkala",
+        "details": "Superior Room, Breakfast Inclusive",
+        "starRating": 5,
+        "price": 5181,
+        "location": "varkala"
+    },
+    {
+        "id": "pkg-18",
+        "name": "The Elephant Court, Thekkadi",
+        "details": "Patio Room, Breakfast Inclusive",
+        "starRating": 5,
+        "price": 6490,
+        "location": "thekkady"
+    },
+    {
+        "id": "pkg-19",
+        "name": "Niraamaya Retreats Cardamom Club, Thekkadi",
+        "details": "Garden View Cottage, Breakfast Inclusive",
+        "starRating": 5,
+        "price": 5660,
+        "location": "thekkady"
+    },
+    {
+        "id": "pkg-20",
+        "name": "Brunton Boatyard, Fort Kochi",
+        "details": "Sea Facing Room, Breakfast Inclusive",
+        "starRating": 5,
+        "price": 5832,
+        "location": "kochi"
+    },
+    {
+        "id": "pkg-21",
+        "name": "Fragrant Nature, Fort Kochi",
+        "details": "Dukes Chamber, Breakfast Inclusive",
+        "starRating": 5,
+        "price": 4334,
+        "location": "kochi"
+    },
+    {
+        "id": "pkg-22",
+        "name": "Taj Malabar, Willingdon Island",
+        "details": "Superior Room, Harbor View, Breakfast Inclusive",
+        "price": 4564,
+        "starRating": 5,
+        "location": "kochi"
+    }
+]

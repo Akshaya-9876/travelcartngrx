@@ -99,7 +99,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/@mdi/font/css/materialdesignicons.min.css"
             ],
             "scripts": []
           }
@@ -107,5 +108,8 @@
       }
     }
   },
-  "defaultProject": "travelcartngrx"
+  "defaultProject": "travelcartngrx",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }

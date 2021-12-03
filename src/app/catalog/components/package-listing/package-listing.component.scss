@@ -1,0 +1,40 @@
+
+.row{
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+ul.summary{
+    li{
+        float:left;
+        margin-right: 20px;
+        height: 24px;
+        line-height: 24px;
+        background-color: grey;
+        color:white;
+        padding:0 20px;
+        border-radius: 10px;
+        font-size:12px;
+        font-weight: 600;
+        cursor:pointer;
+
+        span{
+            padding:0 10px;
+        }
+    }
+    li.highlight{
+        background-color: green;
+    }
+}
+ .packages{
+    float:left;
+    width:100%;
+    li{
+        float:left;
+        width:33.3333%;
+    }
+}
+ul{
+    list-style: none;
+}
