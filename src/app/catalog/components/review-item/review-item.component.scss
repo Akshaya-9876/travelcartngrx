@@ -9,10 +9,19 @@
     margin-right: 20px;
 }
 .review-detail{
-    width:calc(100%-108px);
+    width:calc(100% - 108px);
 }
 .reviewer{
     font-weight: 500;
     font-size: 18px;
     color: #707070;
+}
+.name{
+    margin-top: -45px;
+    margin-left: 70px;
+}
+
+.review{
+    margin-left: 72px;
+    margin-top: -25px;
 }
