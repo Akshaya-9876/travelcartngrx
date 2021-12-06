@@ -15,15 +15,15 @@ export const loadCartDetailsFailure = createAction(
 );
 
 export const addPackageToCart = createAction(
-  '[CartDetail] Add Package To Cart Details'
+  '[CartDetail] Add Package To Cart'
 );
 
 export const addPackageToCartSuccess = createAction(
-  '[CartDetail] Add Package To Cart Details Success',
+  '[CartDetail] Add Package To Cart Success',
   props<{ data: any }>()
 );
 
 export const addPackageToCartFailure = createAction(
-  '[CartDetail]  Load Cart Details Failure',
+  '[CartDetail]  Add Package To Cart Failure',
   props<{ error: any }>()
 );

@@ -59,7 +59,7 @@ export const addPackageToCartSuccess = createAction(
 );
 
 export const addPackageToCartFailure = createAction(
-  '[PackageDetails]  Load CartFailure',
+  '[PackageDetails]  Add Package To Cart Failure',
   props<{ error: any }>()
 );
 
