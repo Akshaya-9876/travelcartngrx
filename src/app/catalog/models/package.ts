@@ -1,8 +1,8 @@
 export class Package {
-    id!: string;
+    id!:string;
     name!:string;
-    price!:number;
     details!:string;
+    price!:number;
     starRating!:number;
     location!:string;
 }

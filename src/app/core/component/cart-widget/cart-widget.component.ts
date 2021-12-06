@@ -1,6 +1,7 @@
-import { INFERRED_TYPE } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
-import { CartWidgetModel } from '../../models/cart-widget-model';
+import { Router } from '@angular/router';
+import { CartWidget } from '../../models/cart-widget';
+import { CoreCartService } from '../../services/core-cart.service';
 
 @Component({
   selector: 'app-cart-widget',
@@ -8,21 +9,20 @@ import { CartWidgetModel } from '../../models/cart-widget-model';
   styleUrls: ['./cart-widget.component.scss']
 })
 export class CartWidgetComponent implements OnInit {
-  model!: CartWidgetModel;
 
-  
+  model!: CartWidget;
 
-
-  constructor() {
-    
-    this.model={
-      count:5,
-      amount:1000,
-      currency:"INR"
+  constructor(private cartService: CoreCartService,
+    private  router:Router
+    ) {
+      
     }
-   }
-
   ngOnInit(): void {
+    this.cartService
+      .fetchCartWidget()
+      .subscribe(widgetModel => this.model = widgetModel)
   }
-
+  navigateToCart(){
+    this.router.navigateByUrl('/cart/details')
+  }
 }

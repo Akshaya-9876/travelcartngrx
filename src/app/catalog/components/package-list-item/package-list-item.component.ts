@@ -1,7 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute} from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Store } from '@ngrx/store';
 import { Package } from '../../models/package';
-import {Router} from '@angular/router'
+import { PackageListingState } from '../../reducers/package-listing.reducer';
+import * as PackageListingActions from '../../actions/package-listing.actions';
 
 @Component({
   selector: 'app-package-list-item',
@@ -9,25 +11,26 @@ import {Router} from '@angular/router'
   styleUrls: ['./package-list-item.component.scss']
 })
 export class PackageListItemComponent implements OnInit {
+
   @Input()
   package!: Package;
-  
-  rating=4;
-  
-  
-  
+  rating = 5;
 
   constructor(
-    private route:ActivatedRoute,
-    private router:Router,
+    private store: Store<PackageListingState>,
+    private route : ActivatedRoute,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
   }
 
-
-  onPackageSelected() {
-    this.router.navigate(['..',this.package.id],{relativeTo:this.route});
-    // this.router.navigate(['..',this.package.id]);
+  onPackageSelected(){
+    this.router.navigate(['..',this.package.id], {relativeTo : this.route});
+  }
+  addItemToCart(event:any){
+    event.preventDefault();
+    event.stopPropagation();
+    this.store.dispatch(PackageListingActions.addPackageToCart({package:this.package}));
   }
 }

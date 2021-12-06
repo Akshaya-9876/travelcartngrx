@@ -3,23 +3,34 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './component/header/header.component';
 import { RatingComponent } from './component/rating/rating.component';
 import { CartWidgetComponent } from './component/cart-widget/cart-widget.component';
+import { HttpClientModule } from '@angular/common/http';
 import { ImageUrlPipe } from './pipes/image-url.pipe';
-
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     RatingComponent,
     CartWidgetComponent,
-    ImageUrlPipe
+    ImageUrlPipe,
+    
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    
+   
   ],
   exports:[
-  RatingComponent,
-  HeaderComponent
+    RatingComponent,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HeaderComponent,
+    ImageUrlPipe
+    
   ]
 })
 export class CoreModule { }

@@ -1,7 +1,6 @@
 export class Review {
-    packageId!:string;
-    reviewer!: string;
-    rating!:string;
-    review!:string;
-  static packageId: any;
+    packageId!: string;
+    rating !: number;
+    reviewer !: string; 
+    review !: string;
 }

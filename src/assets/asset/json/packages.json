@@ -1,6 +1,6 @@
 [
     {
-        "id": "pkg-0",
+        "id": "Fragrant Nature, Munnar",
         "name": "Fragrant Nature, Munnar",
         "details": "Tropic Green Room, Breakfast Inclusive",
         "price": 6338,
@@ -8,7 +8,7 @@
         "location": "munnar"
     },
     {
-        "id": "pkg-1",
+        "id": "Chandys Windy Woods Resort",
         "name": "Chandys Windy Woods Resort, Munnar",
         "details": "Deluxe Room, Breakfast Inclusive",
         "price": 9662,
@@ -16,7 +16,7 @@
         "location": "munnar"
     },
     {
-        "id": "pkg-2",
+        "id": "Club Mahindra Resort",
         "name": "Club Mahindra Resort, Munnar",
         "details": "Superior Room, Breakfast Inclusive",
         "price": 4082,
@@ -24,7 +24,7 @@
         "location": "munnar"
     },
     {
-        "id": "pkg-3",
+        "id": "UDS Backwater Resort, Alappuzha",
         "name": "UDS Backwater Resort, Alappuzha",
         "details": "Lake View Deluxe Room, Breakfast Inclusive",
         "price": 5382,
@@ -32,7 +32,7 @@
         "location": "alappuzha"
     },
     {
-        "id": "pkg-4",
+        "id": "Lemon Tree Vembanad Lake Resort, Alappuzha",
         "name": "Lemon Tree Vembanad Lake Resort, Alappuzha",
         "details": "Superior Room, Breakfast Inclusive",
         "price": 6210,
@@ -40,7 +40,7 @@
         "location": "alappuzha"
     },
     {
-        "id": "pkg-5",
+        "id": "Turtle on the Beach, Kovalam",
         "name": "Turtle on the Beach, Kovalam",
         "details": "Deluxe Room, Breakfast Inclusive",
         "price": 5756,
@@ -48,7 +48,7 @@
         "location": "kovalam"
     },
     {
-        "id": "pkg-6",
+        "id": "Uday Samudra Leisure Beach Hotel, Kovalam",
         "name": "Uday Samudra Leisure Beach Hotel, Kovalam",
         "details": "Deluxe Room, Breakfast Inclusive",
         "price": 5242,
@@ -56,7 +56,7 @@
         "location": "kovalam"
     },
     {
-        "id": "pkg-7",
+        "id": "Estuary Sarovar Portico, Poovar",
         "name": "Estuary Sarovar Portico, Poovar",
         "details": "Garden Cottage, Breakfast Inclusive",
         "price": 7385,
@@ -64,7 +64,7 @@
         "location": "kovalam"
     },
     {
-        "id": "pkg-8",
+        "id": "Club Mahindra Poovar, Poovar",
         "name": "Club Mahindra Poovar, Poovar",
         "details": "Superior Room, Breakfast Inclusive",
         "price": 3738,
@@ -72,7 +72,7 @@
         "location": "kovalam"
     },
     {
-        "id": "pkg-9",
+        "id": "The Zuri, Kumarakom",
         "name": "The Zuri, Kumarakom",
         "details": "Lagoon Room, Breakfast Inclusive",
         "price": 7168,
@@ -80,7 +80,7 @@
         "location": "alappuzha"
     },
     {
-        "id": "pkg-10",
+        "id": "Park Regis Aveda, Kumarakom",
         "name": "Park Regis Aveda, Kumarakom",
         "details": "Poolside Premium Cottage, Breakfast Inclusive",
         "price": 5693,
@@ -88,7 +88,7 @@
         "location": "alappuzha"
     },
     {
-        "id": "pkg-11",
+        "id": "Vythiri Village Resort, Wayanad",
         "name": "Vythiri Village Resort, Wayanad",
         "details": "Cottage, Breakfast Inclusive",
         "price": 9912,
@@ -96,7 +96,7 @@
         "location": "wayanad"
     },
     {
-        "id": "pkg-12",
+        "id": "Vythiri Village Resort, Wayanad",
         "name": "Vythiri Village Resort, Wayanad",
         "details": "Standard Room, Breakfast Inclusive",
         "price": 5665,
@@ -104,7 +104,7 @@
         "location": "wayanad"
     },
     {
-        "id": "pkg-13",
+        "id": "Wayanad Sharoy Resort, Wayanad",
         "name": "Wayanad Sharoy Resort, Wayanad",
         "details": "Villa Cottage, Breakfast Inclusive",
         "price": 9568,
@@ -112,7 +112,7 @@
         "location": "wayanad"
     },
     {
-        "id": "pkg-14",
+        "id": "Tea Terrace Vythiri Resort, Wayanad",
         "name": "Tea Terrace Vythiri Resort, Wayanad",
         "details": "Premium Cottage, Breakfast Inclusive",
         "price": 5268,
@@ -120,7 +120,7 @@
         "location": "wayanad"
     },
     {
-        "id": "pkg-15",
+        "id": "B'Canti Boutique Beach Resort, Varkala",
         "name": "B'Canti Boutique Beach Resort, Varkala",
         "details": "Deluxe Room, Breakfast Inclusive",
         "price": 6995,
@@ -128,7 +128,7 @@
         "location": "varkala"
     },
     {
-        "id": "pkg-16",
+        "id": "Fragrant Nature, Paravur",
         "name": "Fragrant Nature, Paravur",
         "details": "Premium Lake View Villa, Breakfast Inclusive",
         "starRating": 5,
@@ -136,7 +136,7 @@
         "location": "varkala"
     },
     {
-        "id": "pkg-17",
+        "id": "The Gateway Hotel, Varkala",
         "name": "The Gateway Hotel, Varkala",
         "details": "Superior Room, Breakfast Inclusive",
         "starRating": 5,
@@ -144,7 +144,7 @@
         "location": "varkala"
     },
     {
-        "id": "pkg-18",
+        "id": "The Elephant Court, Thekkadi",
         "name": "The Elephant Court, Thekkadi",
         "details": "Patio Room, Breakfast Inclusive",
         "starRating": 5,
@@ -152,7 +152,7 @@
         "location": "thekkady"
     },
     {
-        "id": "pkg-19",
+        "id": "Niraamaya Retreats Cardamom Club, Thekkadi",
         "name": "Niraamaya Retreats Cardamom Club, Thekkadi",
         "details": "Garden View Cottage, Breakfast Inclusive",
         "starRating": 5,
@@ -160,7 +160,7 @@
         "location": "thekkady"
     },
     {
-        "id": "pkg-20",
+        "id": "Brunton Boatyard, Fort Kochi",
         "name": "Brunton Boatyard, Fort Kochi",
         "details": "Sea Facing Room, Breakfast Inclusive",
         "starRating": 5,
@@ -168,7 +168,7 @@
         "location": "kochi"
     },
     {
-        "id": "pkg-21",
+        "id": "Fragrant Nature, Fort Kochi",
         "name": "Fragrant Nature, Fort Kochi",
         "details": "Dukes Chamber, Breakfast Inclusive",
         "starRating": 5,
@@ -176,7 +176,7 @@
         "location": "kochi"
     },
     {
-        "id": "pkg-22",
+        "id": "Taj Malabar, Willingdon Island",
         "name": "Taj Malabar, Willingdon Island",
         "details": "Superior Room, Harbor View, Breakfast Inclusive",
         "price": 4564,

@@ -3,19 +3,25 @@ import { CommonModule } from '@angular/common';
 
 import { CartRoutingModule } from './cart-routing.module';
 import { CartComponent } from './cart.component';
-import { ReviewPopupComponent } from './components/review-popup/review-popup.component';
 import { CartDetailsComponent } from './components/cart-details/cart-details.component';
+import { StoreModule } from '@ngrx/store';
+import * as fromCartDetail from './reducers/cart-detail.reducer';
+import { EffectsModule } from '@ngrx/effects';
+import { CartDetailEffects } from './effects/cart-detail.effects';
+import { CoreModule } from '../core/core.module';
 
 
 @NgModule({
   declarations: [
     CartComponent,
-    ReviewPopupComponent,
     CartDetailsComponent
   ],
   imports: [
     CommonModule,
-    CartRoutingModule
+    CartRoutingModule,
+    CoreModule,
+    StoreModule.forFeature(fromCartDetail.cartDetailFeatureKey, fromCartDetail.reducer),
+    EffectsModule.forFeature([CartDetailEffects])
   ]
 })
 export class CartModule { }

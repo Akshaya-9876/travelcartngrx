@@ -1,4 +1,4 @@
-import { ValueConverter } from '@angular/compiler/src/render3/view/template';
+
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
@@ -9,12 +9,13 @@ export class ImageUrlPipe implements PipeTransform {
 
   
 
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
-
+  transform(value?: string, ...args: unknown[]): unknown {
+    return '/assets/asset/img/location/'+value+'.png';
     
   }
   // value!:string;
   // return 'assets/img/location/'+value;
   
 }
+
+

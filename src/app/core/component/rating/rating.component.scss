@@ -1,28 +1,17 @@
-// .rating {
-//     //background: yellow;
-//     // Rating: Disabled ;
-//     //color: red;
-//     color: #ef9771;
-//     color: #cfc5c5;
-
-    
-// }
-
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 ul{
+    display: block;
+    float: left;
+    list-style: none;
+
+    li{
+        float: left;
+        margin-right: 5px;
+        color: #cfc5c5;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
     li.filled{
         color: #ef9771;
     }
-    //  li.notfilled{
-    //      color: #cfc5c5;
-    //  }
-    display: block;
-    float:left;
-    list-style: none;
-    margin: 10px;
 }

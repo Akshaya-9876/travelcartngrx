@@ -1,5 +1,9 @@
-<div class=" wigdet right">
-    <i class="mdi mdi-cart"></i>
-    <span>{{model.count}}item(s)</span>
-    <span>{{model.amount}}</span>
-</div>
+<section class="cart-widget pointer right" (click)="navigateToCart()">
+    <i class=" header-cart-icon mdi mdi-cart"></i>
+    <div class="summary">
+        <span>{{model?.count}} item(s)</span>
+        <span class="amount">
+            {{model?.amount | currency:model?.currency:'symbol-narrow':'4.2-2'}}
+        </span>
+    </div>
+</section>

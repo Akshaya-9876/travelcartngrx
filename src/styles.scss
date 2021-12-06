@@ -15,6 +15,17 @@ background: #fff;
 box-shadow: 0px 5px 20px rgba(147, 170, 185, 0.16);
 }
 
+
+// h2{
+//     // overflow: hidden;
+//     // overflow: ;
+//     // text-overflow: clip;
+//     // white-space: nowrap;
+
+//     white-space: nowrap;
+//         overflow: hidden;
+//         text-overflow: clip;
+// }
 .price{
 font-family: Roboto;
 font-weight: normal;
@@ -22,7 +33,11 @@ font-size: 20px;
 color: #d21a1a;
 }
 
-.button{
+.amount{
+    color: red;
+}
+
+button{
 height: 64px;
 border-radius: 5px;
 background: #713ab7;

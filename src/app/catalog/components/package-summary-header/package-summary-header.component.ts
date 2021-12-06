@@ -1,6 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { RatingComponent } from 'src/app/core/component/rating/rating.component';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { Store } from '@ngrx/store';
 import { Package } from '../../models/package';
+import { Review } from '../../models/review';
+import { PackageDetailsState } from '../../reducers/package-details.reducer';
+import { selectPackageDetail, selectPackageDetailsState } from '../../selectors/package-details.selectors';
+import { ReviewPopupComponent } from '../review-popup/review-popup.component';
+import * as PackageDetailsActions from '../../actions/package-details.actions';
 
 @Component({
   selector: 'app-package-summary-header',
@@ -9,11 +14,39 @@ import { Package } from '../../models/package';
 })
 export class PackageSummaryHeaderComponent implements OnInit {
 
-  package!:Package;
-  rating=3;
-  constructor() { }
+  package!: Package | null;
+  rating = 3;
+
+  @ViewChild(ReviewPopupComponent)
+  reviewPopup: ReviewPopupComponent | undefined;
+
+  constructor(
+    private store: Store<PackageDetailsState>
+  ) {
+    this.store
+      .select(selectPackageDetail)
+      .subscribe(pkg => this.package = pkg);
+  }
 
   ngOnInit(): void {
+
+  }
+
+  addToCart() {
+    if (this.package) {
+      this.store.dispatch(PackageDetailsActions.addPackageToCart({ package: this.package  }));
+    }
+  }
+
+  addReview() {
+    this.reviewPopup?.show();
+  }
+
+  saveReview(review: Review) {
+    this.reviewPopup?.hide();
+    review.packageId = this.package?.id ?? '';
+    this.store.dispatch(PackageDetailsActions.saveReview({ review }));
+
   }
 
 }

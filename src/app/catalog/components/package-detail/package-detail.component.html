@@ -1,10 +1,13 @@
-<p>package-detail works!</p>
-<app-package-summary-header></app-package-summary-header>
-<div class="row">
-    <ul>
-        <li class="review" *ngFor="let review= reviews">
-            <app-review-item [review]="review"></app-review-item>
-        </li>
-    </ul>
-
-</div>
+<div class="container">
+    <app-package-summary-header></app-package-summary-header>
+    <div class="row">
+        <ul>
+            <li class="review" *ngFor="let review of reviews">
+                <app-review-item [review]="review"></app-review-item>
+            </li>
+        </ul>
+    </div>
+    </div>
+    
+    
+    

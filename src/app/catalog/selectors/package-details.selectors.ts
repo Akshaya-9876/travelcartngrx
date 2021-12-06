@@ -6,10 +6,16 @@ export const selectPackageDetailsState = createFeatureSelector<fromPackageDetail
   fromPackageDetails.packageDetailsFeatureKey
 );
 
-
 export const selectPackageDetail = createSelector(
   selectPackageDetailsState,
-  (state: PackageDetailsState) => {
+  (state:PackageDetailsState) => {
     return state.package;
   }
-  );
+);
+
+export const selectPackageReviews = createSelector(
+  selectPackageDetailsState,
+  (state:PackageDetailsState) => {
+    return state.reviews;
+  }
+);

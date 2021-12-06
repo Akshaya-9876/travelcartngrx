@@ -1,13 +1,25 @@
-div{
-    display: block;
+.cart-widget{
     padding-right: 20px;
-    padding-top:10px ;
-    margin-top: -45px;
-}
+    padding-top: 10px;
+    i{
+       // float: right;
+        font-size: 32px;
+        margin-right: 10px;
+    }
+    .summary{
+        float: right ;
+        margin-left: 20px;
+        span {
+            display: block;
+        }
+        span.items {
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        margin-top: 2px;
+    }
 
-i{
-    float: left;
 }
-span{
-    float: left;
+.header-cart-icon{
+    margin-right:-20px;
 }
